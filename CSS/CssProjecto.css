@@ -1,0 +1,18 @@
+body{
+    text-align: center; 
+    background-image: url(img/mapainicio.jpg);
+    background-color: rgb(7, 26, 41)
+}
+h1{
+    font-family: cursive; color: #eaeaed; 
+    text-shadow: 0.1em 0.1em 0.9em #2168eb ;
+}
+h2{
+    font-family: cursive; color: #ffffff; text-shadow: 0.1em 0.1em 0.2em white;
+}
+legend {
+    font-family: cursive; color: #ffffff; text-shadow: 0.1em 0.1em 0.2em white;
+}
+p {
+    font-family: cursive; color: #ffffff; text-shadow: 0.1em 0.1em 0.2em white;
+}
