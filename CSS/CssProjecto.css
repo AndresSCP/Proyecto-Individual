@@ -1,9 +1,9 @@
 .LoginSitio{
     text-align: center; 
-    background-image: url(img/mapainicio.jpg);
+    background-image: url(Img/mapainicio.jpg);
     background-color: rgb(7, 26, 41)
 }
-h1 {
+H1 {
     font-family: cursive; color: #eaeaed; 
     text-shadow: 0.1em 0.1em 0.9em #ffffff ;
 }
@@ -36,4 +36,16 @@ h2 {
         border-top-right-radius: .3rem;
         border-bottom-right-radius: .3rem;
     }
+}
+.mapouter {
+    position: relative;
+    text-align: right;
+    height: 500px;
+    width: 800px;
+}
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 800px;
 }
