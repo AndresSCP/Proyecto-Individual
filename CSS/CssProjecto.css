@@ -1,18 +1,39 @@
-body{
+.LoginSitio{
     text-align: center; 
     background-image: url(img/mapainicio.jpg);
     background-color: rgb(7, 26, 41)
 }
-h1{
+h1 {
     font-family: cursive; color: #eaeaed; 
-    text-shadow: 0.1em 0.1em 0.9em #2168eb ;
+    text-shadow: 0.1em 0.1em 0.9em #ffffff ;
 }
-h2{
+h2 {
     font-family: cursive; color: #ffffff; text-shadow: 0.1em 0.1em 0.2em white;
 }
-legend {
-    font-family: cursive; color: #ffffff; text-shadow: 0.1em 0.1em 0.2em white;
+.checkbox {
+    font-family: cursive; color: #eaeaed; 
+    text-shadow: 0.1em 0.1em 0.6em #ffffff ;
 }
-p {
-    font-family: cursive; color: #ffffff; text-shadow: 0.1em 0.1em 0.2em white;
+.gradient-custom-2 {
+    /* fallback for old browsers */
+    background: #fccb90;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #000b18, #00172b, #00264d, #02386e);
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #000b18, #00172b, #00264d, #02386e);
+}
+
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+    }
 }
