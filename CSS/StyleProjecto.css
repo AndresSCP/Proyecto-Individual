@@ -1,6 +1,4 @@
-.LoginSitio{
-    text-align: center; 
-    background-image: url(Img/mapainicio.jpg);
+.LoginSitio {
     background-color: rgb(7, 26, 41)
 }
 H1 {
@@ -9,6 +7,9 @@ H1 {
 }
 h2 {
     font-family: cursive; color: #ffffff; text-shadow: 0.1em 0.1em 0.2em white;
+}
+#TituloRegistro {  
+    color: #1b1a1a; text-shadow: 0.1em 0.1em 0.2em white;
 }
 .checkbox {
     font-family: cursive; color: #eaeaed; 
@@ -39,14 +40,17 @@ h2 {
 }
 .mapouter {
     position: relative;
-    text-align: right;
+    text-align: center;
     height: 500px;
-    width: 800px;
+    width: auto;
 }
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
     height: 500px;
-    width: 800px;
+    width: auto;
 }
 
+body {
+    background-color: #000b18;
+}
