@@ -19,16 +19,16 @@
               <div class="card-body p-5">
                 <h2 class="text-uppercase text-center mb-5" id="TituloRegistro">Crea una cuenta</h2>
   
-                <form>
-  
+                <form name="Formulario">
+
                   <div class="form-outline mb-4">
                     <input type="text" id="Usuario" class="form-control form-control-lg" />
-                    <label class="form-label" for="form3Example1cg">Nombre de usuario</label>
+                    <label class="form-label" for="Usuario">Nombre de usuario</label>
                   </div>
   
                   <div class="form-outline mb-4">
                     <input type="email" id="Email" class="form-control form-control-lg" />
-                    <label class="form-label" for="form3Example2cg">Email</label>
+                    <label class="form-label" for="Email">Email</label>
                   </div>
   
                   <div class="form-outline mb-4">
@@ -49,8 +49,7 @@
                   </div>
   
                   <div class="d-flex justify-content-center">
-                    <button type="button"
-                      class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Registro</button>
+                    <button type="button" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" onclick="validacion()" id="confirmar">Registro</button>
                   </div>
   
                   <p class="text-center text-muted mt-5 mb-0">Ya tienes una cuenta? <a href="index.html"
