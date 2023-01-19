@@ -50,7 +50,12 @@ h2 {
     height: 500px;
     width: auto;
 }
-
+.twitter-Header {
+    overflow: hidden;
+    display: block;
+    height: 500px;
+    width: 500px !important;
+}
 body {
     background-color: #000b18;
 }
