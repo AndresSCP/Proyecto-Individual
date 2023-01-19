@@ -1,16 +1,52 @@
 function validateForm() {
-	var x = document.forms["Formulario"]["Usuario"].value;
-	var y = document.forms["Formulario"]["password"].value;
-	if (x == "") {
-    	alert("Name must be filled out.");
-    	return false;
-	}
-	else if (y.length < 8)
-   	 {
-    	alert("Password must be at least 8 characters long.");
-    	return false;
+    var usuario = document.getElementById('Usuario').value;
+    if (usuario == "") {
+        let mensaje01 = " El campo Usuario no puede estar vacío"
+        // alert(Mensaje01);
+        let labelusuario = document.getElementById('labelusuario')
+        labelusuario.textContent= labelusuario.textContent+mensaje01
+        labelusuario.classList.add("text-danger")
+        return false;
+  
+    }
+    var Email = document.getElementById('Email').value;
+    if (Email == "") {
+        let mensaje02 = " El campo Email no puede estar vacío" 
+        // alert("El campo Email no puede estar vacío");
+        let labelemail = document.getElementById('labelemail')
+        labelemail.textContent= labelemail.textContent+mensaje02
+        labelemail.classList.add("text-danger")
+        return false;
+    }
+    var Password = document.getElementById('Password').value;
+    if (Password == "") {
+        let mensaje03 = " El campo Contraseña no puede estar vacío"
+        // alert(Mensaje01);
+        let labelpassword = document.getElementById('labelpassword')
+        labelpassword.textContent= labelpassword.textContent+mensaje03
+        labelpassword.classList.add("text-danger")
+        return false;
+    }
+
+    var RPassword = document.getElementById('RPassword').value;
+    if (RPassword == "") {
+        alert("Escribe nuevamente tu Contraseña");
+        return false;
+    }
+
+    if (RPassword != Password) {
+        alert ("La contraseña no coincide")
+    }
+    // JQuery
+    if ( $('#cajacheckbox').prop('checked')){
+    alert ("Registro Correcto")   
+     } 
+    else { alert ("debes marcar la casilla de Terminos de servicio")
+
+     }
 }
-}
-function validacion(){
-    alert("presione el boton");
-}
+//     $('#cajacheckbox').click(function(){
+//     if( $('#cajacheckbox').prop('checked') ) {
+//     }
+   
+// })
