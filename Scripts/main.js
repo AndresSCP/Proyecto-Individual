@@ -2,7 +2,6 @@ function validateForm() {
     var usuario = document.getElementById('Usuario').value;
     if (usuario == "") {
         let mensaje01 = " El campo Usuario no puede estar vacío"
-        // alert(Mensaje01);
         let labelusuario = document.getElementById('labelusuario')
         labelusuario.textContent= labelusuario.textContent+mensaje01
         labelusuario.classList.add("text-danger")
@@ -12,7 +11,6 @@ function validateForm() {
     var Email = document.getElementById('Email').value;
     if (Email == "") {
         let mensaje02 = " El campo Email no puede estar vacío" 
-        // alert("El campo Email no puede estar vacío");
         let labelemail = document.getElementById('labelemail')
         labelemail.textContent= labelemail.textContent+mensaje02
         labelemail.classList.add("text-danger")
@@ -21,7 +19,6 @@ function validateForm() {
     var Password = document.getElementById('Password').value;
     if (Password == "") {
         let mensaje03 = " El campo Contraseña no puede estar vacío"
-        // alert(Mensaje01);
         let labelpassword = document.getElementById('labelpassword')
         labelpassword.textContent= labelpassword.textContent+mensaje03
         labelpassword.classList.add("text-danger")
@@ -44,9 +41,7 @@ function validateForm() {
     else { alert ("debes marcar la casilla de Terminos de servicio")
 
      }
-}
-//     $('#cajacheckbox').click(function(){
-//     if( $('#cajacheckbox').prop('checked') ) {
-//     }
-   
-// })
+}   
+    $('#mostrartexto').click(() => {
+    $('#mostrar').toggle('fold');
+    })
