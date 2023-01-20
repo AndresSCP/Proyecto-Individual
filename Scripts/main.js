@@ -42,3 +42,6 @@ function validateForm() {
 
      }
 }   
+    $('#mostrartexto').click(() => {
+    $('#mostrar').toggle('fold');
+    })
