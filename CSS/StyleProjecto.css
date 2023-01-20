@@ -23,7 +23,7 @@ h2 {
     background: -webkit-linear-gradient(to right, #000b18, #00172b, #00264d, #02386e);
 
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, #000b18, #00172b, #00264d, #02386e);
+    background: linear-gradient(to right, #02193ad7, #022747, #00264d, #024486);
 }
 
 @media (min-width: 768px) {
@@ -31,10 +31,9 @@ h2 {
         height: 100vh !important;
     }
 }
-
 @media (min-width: 769px) {
     .gradient-custom-2 {
-        border-top-right-radius: .3rem;
+        border-top-right-radius: .3em;
         border-bottom-right-radius: .3rem;
     }
 }
@@ -59,6 +58,22 @@ h2 {
 body {
     background-color: #000b18;
 }
+
 #mostrar {
     color: #eaeaed;
+    text-shadow: 0.1em 0.1em 0.9em #ffffff;
 }
+
+@media (max-width: 992px){
+    #mapainicio {
+    display: none;}
+}
+#izquierdainicio{
+    background-color: #ffffff;
+}
+/* #derechainicio{
+    background-image: url("img/mapaoscuroflip.jpg");
+}
+     */
+
+

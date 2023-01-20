@@ -9,61 +9,63 @@
     <link rel="stylesheet" href="CSS/StyleProjecto.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/theme.min.css">
-    
+
 </head>
 <body>
-  <section class="h-100 gradient-form" >
-    <div class="container h-100">
-      <div class="row d-flex justify-content-center align-items-center h-100">
-        <div class="col-xl-10">
-          <div class="card rounded-3 text-black">
+  <section class="" >
+    <div class="container">
+          <!-- <div class="card rounded-3"> -->
             <div class="row">
-              <div class="col-lg-6">
-                <div class="card-body p-md-5 mx-md-4">
-  
-                  <div class="text-center">
-                    <img src="img/Alerta.jpg"
-                      style="width: 160px;" alt="logo">
-                    <h4 class="mt-1 mb-5 pb-1">MyAlert</h4>
-                  </div>
-  
-                  <form>
-                    <p>Porfavor ingresa</p>
-  
-                    <div class="form-outline mb-4">
-                      <input type="email" id="UsuarioLogin" class="form-control"
-                        placeholder="Usuario o correo electronico" />
-                      <label class="form-label" for="UsuarioLogin">Usuario</label>
-                    </div>
-  
-                    <div class="form-outline mb-4">
-                      <input type="password" id="PasswordLogin" class="form-control" />
-                      <label class="form-label" for="form2Example22">Password</label>
-                    </div>
-  
-                    <div class="text-center pt-1 mb-5 pb-1">
-                      <a class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button" href="main.html">Log
-                        in</a>
-                      <a class="text-muted" href="#!">Olvidaste tu Contraseña?</a>
-                    </div>
-  
-                    <div class="d-flex align-items-center justify-content-center pb-4">
-                      <p class="mb-0 me-2">No tienes una cuenta?</p>
-                      <a type="button" class="btn btn-outline-danger" href="registro.html">Crear</a>
-                    </div>
-  
-                  </form>
-  
-                </div>
-              </div>
-              <div class="col-lg-6 d-flex align-items-center gradient-custom-2">
-                <button type="button" class="btn btn-secondary gradient-custom-2" id="mostrartexto" >Acerca de MyAlert</button>
-                <div></div>
 
-                <div class="parrafo"  style="display: none" id="mostrar">MyAlert es una comunidad que busca manterner informados 
-                  y alertas a sus usuarios de eventos que afecten la seguridad en su zona</div>
+                  <!-- columna izquierda -->
+                          <div class="col-xl-6 col-lg-6 justify-content-center align-items-center" id="izquierdainicio">
+                            <div class="card-body-3 p-md-5 mx-md-4">
+                              <div class="text-center">
+                                <img src="img/Alerta.jpg" style="width: 160px; height: 160px" alt="logo">
+                                <h4 class="mt-1 mb-5 pb-1">MyAlert</h4>
+                              </div>
+                              <!-- Formulario -->
+                              <form>
+                                <p>Porfavor ingresa</p>
+                        
+                                <div class="form-outline mb-4">
+                                  <input type="email" id="UsuarioLogin" class="form-control" placeholder="Usuario o correo electronico" />
+                                  <label class="form-label" for="UsuarioLogin">Usuario</label>
+                                </div>
+                        
+                                <div class="form-outline mb-4">
+                                  <input type="password" id="PasswordLogin" class="form-control" />
+                                  <label class="form-label" for="form2Example22">Password</label>
+                                </div>
+                        
+                                <div class="text-center pt-1 mb-5 pb-1">
+                                  <a class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button" href="main.html">Log
+                                    in</a>
+                                  <a class="text-muted" href="#!">Olvidaste tu Contraseña?</a>
+                                </div>
+                        
+                                <div class="d-flex align-items-center justify-content-center pb-4">
+                                  <p class="mb-0 me-2">No tienes una cuenta?</p>
+                                  <a type="button" class="btn btn-outline-danger" href="registro.html">Crear</a>
+                                </div>
+                        
+                              </form>
+                            </div>
+                          </div>
+                        
+                  <!-- Columna derecha -->
+                        <div class="col-xl-6 col-lg-6 align-items-center gradient-custom-2 text-center" id="derechainicio">
+                          <div class="card-body-5 p-md-1 mx-md-2">
+                            <button type="button" class="btn btn-secondary gradient-custom-2 " id="mostrartexto">
+                            Acerca de MyAlert
+                            </button>
+                            <div class="parrafo" style="display: none" id="mostrar"> MyAlert es una comunidad que busca manterner informados
+                            y alertas a sus usuarios de eventos que afecten la seguridad en su zona.
+                            </div>
+                            <img src="img/mapaA1.gif" alt="" class="img-fluid py-5 px-4" id="mapainicio">
+                          </div>
+                        </div>
 
-              </div>
             </div>
           </div>
         </div>
