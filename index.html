@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>login</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/Style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css">
@@ -12,65 +12,65 @@
 
 </head>
 <body>
-  <section class="" >
-    <div class="container" id="contenedorcolumnas">
-          <!-- <div class="card rounded-3"> -->
-            <div class="row">
-                  <!-- columna izquierda -->
-                      <div class="col-xl-6 col-lg-6 d-flex justify-content-center" id="izquierdainicio">
-                        <div class="card-body-3 p-md-5 mx-md-4">
-                          <div class="text-center">
-                            <img src="img/Alerta.jpg" style="width: 160px; height: 160px" alt="logo">
-                            <h4 class="mt-1 mb-5 pb-1">MyAlert</h4>
-                          </div>
-                          <!-- Formulario -->
-                          <form>
-                              <div></div>
-                            <p>Porfavor ingresa</p>
-                      
-                            <div class="form-outline mb-4">
-                              <input type="email" id="UsuarioLogin" class="form-control" placeholder="Usuario o correo electronico" />
-                              <label class="form-label" for="UsuarioLogin">Usuario</label>
-                            </div>
-                      
-                            <div class="form-outline mb-4">
-                              <input type="password" id="PasswordLogin" class="form-control" />
-                              <label class="form-label" for="form2Example22">Password</label>
-                            </div>
-                      
-                            <div class="text-center pt-1 mb-5 pb-1">
-                              <a class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button" href="main.html">Log
-                                in</a>
-                              <a class="text-muted" href="#!">Olvidaste tu Contraseña?</a>
-                            </div>
-                      
-                            <div class="d-flex align-items-center d-flex justify-content-center pb-4">
-                              <p class="mb-0 me-2">No tienes una cuenta?</p>
-                              <a type="button" class="btn btn-outline-danger" href="registro.html">Crear</a>
-                            </div>
-                      
-                          </form>
+    <section class="h-100 gradient-form" id="loginsitio">
+        <div class="container py-5 h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-xl-10">
+              <div class="card rounded-3 text-black">
+                <div class="row g-0">
+                  <div class="col-lg-6">
+                    <!-- columna izquierda -->
+                    <div class="card-body p-md-5 mx-md-4">
+                      <div class="text-center">
+                        <img src="img/Alerta.jpg"
+                          style="width: 185px;" alt="logo">
+                        <h4 class="mt-1 mb-5 pb-1">MyAlert!</h4>
+                      </div>     
+                      <form>
+                        <p>Por favor ingresa a tu cuenta</p>
+      
+                        <div class="form-outline mb-4">
+                          <input type="" id="usuariologin" class="form-control"
+                            placeholder="Usuario" />
+                          <label class="form-label" for="usuariologin" id="login">Usuario</label>
                         </div>
-                      </div>
+      
+                        <div class="form-outline mb-4">
+                          <input type="" id="usuariopassword" class="form-control" placeholder="Escribe tu contraseña"/>
+                          <label class="form-label" for="usuariopassword" id="passwordlogin">Contraseña</label>
+                        </div>
+      
+                        <div class="text-center pt-1 mb-5 pb-1">
+                          <a class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" href="main.html">Ingresar</a>
+                          <a class="text-muted" href="#!">Olvidaste tu Contraseña?</a>
+                        </div>
+      
+                        <div class="d-flex pb-4">
+                          <p class="mb-0 me-2">No tienes una cuenta?</p>
+                          <a type="button" class="btn btn-outline-danger" href="registro.html">Crea una nueva</a>
+                        </div>
+      
+                      </form>    
+                    </div>
+                  </div>
+                  <!-- columna derecha -->
+                  <div class="col-lg-6 d-flex align-items-center justify-content-center gradient-custom-2" id="columnaderecha">
+                    <div class="text-white px-3 py-4 p-md-5 mx-md-4" >
+                        <button type="button" class="btn btn-secondary gradient-custom-2" id="mostrartexto">
+                            Acerca de MyAlert!
+                        </button>
+                        <p class="parrafo small mb-0" style="display: none" id="mostrar">Mantente alerta con MyAlert!, esta una comunidad que busca manterner alerta e informados
+                            a sus usuarios de eventos que afecten la seguridad en su zona, comparte lo que veas en tu ubicacion al instante!</p>
                         
-      <!-- Columna derecha -->
-                     <div class="col-xl-6 col-lg-6 gradient-custom-2 text-center" id="derechainicio">
-                        <div class="card-body-5 p-md-1 mx-md-2">
-                            <button type="button" class="btn btn-secondary gradient-custom-2" id="mostrartexto">
-                            Acerca de MyAlert
-                            </button>
-                            <div class="parrafo" style="display: none" id="mostrar"> MyAlert es una comunidad que busca manterner informados
-                            y alerta a sus usuarios de eventos que afecten la seguridad en su zona.
-                            </div>
-                            <img src="img/mapaA1.gif" alt="" class="img-fluid py-5 px-4" id="mapainicio">
-                        </div>
-                     </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+    </section>
+      <!-- scripts -->
       <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>

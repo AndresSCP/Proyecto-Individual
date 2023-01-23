@@ -1,4 +1,4 @@
-.LoginSitio {
+#loginsitio {
     background-color: rgb(7, 26, 41)
 }
 H1 {
@@ -26,17 +26,28 @@ h2 {
     background: linear-gradient(to right, #02193ad7, #022747, #00264d, #024486);
 }
 
-@media (min-width: 768px) {
-    .gradient-form {
-        height: 100vh !important;
-    }
+body {
+    background-color: #000b18;
 }
-@media (min-width: 769px) {
-    .gradient-custom-2 {
-        border-top-right-radius: .3em;
-        border-bottom-right-radius: .3rem;
-    }
+
+#mostrar {
+    color: #eaeaed;
+    text-shadow: 0.1em 0.1em 0.9em #ffffff;
 }
+#mapainicio {
+    max-width: 100%;
+    height: 900px;
+}
+
+#izquierdainicio{
+    background-color: #e6aaaa;
+}
+#contenedorcolumnas{
+    height: 720px;
+}
+
+/* Main, Mapa y feed */
+
 .mapouter {
     position: relative;
     text-align: center;
@@ -55,28 +66,23 @@ h2 {
     height: 500px;
     width: 500px !important;
 }
-body {
-    background-color: #000b18;
-}
 
-#mostrar {
-    color: #eaeaed;
-    text-shadow: 0.1em 0.1em 0.9em #ffffff;
-}
+/* Responsividad */
 
+@media (min-width: 768px) {
+    .gradient-form {
+        height: 100vh !important;
+    }
+}
+@media (min-width: 769px) {
+    .gradient-custom-2 {
+        border-top-right-radius: .3em;
+        border-bottom-right-radius: .3rem;
+    }
+}
 @media (max-width: 992px){
     #mapainicio {
     display: none;}
-}
-#izquierdainicio{
-    background-color: #ffffff;
-}
-/* #derechainicio{
-    background-color: 
-} */
-
-#contenedorcolumnas{
-    height: 720px;
 }
 
 
