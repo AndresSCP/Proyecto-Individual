@@ -6,7 +6,7 @@ function validateForm() {
         labelusuario.textContent= labelusuario.textContent+mensaje01
         labelusuario.classList.add("text-danger")
         return false;
-  
+    
     }
     var Email = document.getElementById('Email').value;
     if (Email == "") {
@@ -34,7 +34,8 @@ function validateForm() {
     if (RPassword != Password) {
         alert ("La contraseña no coincide")
     }
-    // JQuery
+               // JQuery
+
     if ( $('#cajacheckbox').prop('checked')){
     alert ("Registro Correcto")   
      } 
@@ -42,6 +43,13 @@ function validateForm() {
 
      }
 }   
+    // mostrar texto boton  
     $('#mostrartexto').click(() => {
     $('#mostrar').toggle('fold');
     })
+
+    // login
+    $(document).ready(() => {
+    $("#basic-form").validate();
+    });
+
