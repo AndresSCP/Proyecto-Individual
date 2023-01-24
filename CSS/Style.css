@@ -27,23 +27,23 @@ h2 {
 }
 
 body {
-    background-color: #000b18;
+    background-color: #011124;
 }
 
 #mostrar {
-    color: #eaeaed;
+    background-color: #273b4e;
+    color: #f3f3f3;
     text-shadow: 0.1em 0.1em 0.9em #ffffff;
 }
-#mapainicio {
-    max-width: 100%;
-    height: 900px;
-}
 
-#izquierdainicio{
-    background-color: #e6aaaa;
-}
 #contenedorcolumnas{
     height: 720px;
+}
+#fotomapa {
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 /* Main, Mapa y feed */
@@ -81,7 +81,7 @@ body {
     }
 }
 @media (max-width: 992px){
-    #mapainicio {
+    #fotomapa {
     display: none;}
 }
 

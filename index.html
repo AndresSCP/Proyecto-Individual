@@ -14,55 +14,72 @@
 <body>
     <section class="h-100 gradient-form" id="loginsitio">
         <div class="container py-5 h-100">
-          <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="row d-flex justify-content-center align-items-center ">
             <div class="col-xl-10">
               <div class="card rounded-3 text-black">
                 <div class="row g-0">
                   <div class="col-lg-6">
                     <!-- columna izquierda -->
-                    <div class="card-body p-md-5 mx-md-4">
-                      <div class="text-center">
-                        <img src="img/Alerta.jpg"
-                          style="width: 185px;" alt="logo">
-                        <h4 class="mt-1 mb-5 pb-1">MyAlert!</h4>
-                      </div>     
-                      <form>
-                        <p>Por favor ingresa a tu cuenta</p>
-      
-                        <div class="form-outline mb-4">
-                          <input type="" id="usuariologin" class="form-control"
-                            placeholder="Usuario" />
-                          <label class="form-label" for="usuariologin" id="login">Usuario</label>
-                        </div>
-      
-                        <div class="form-outline mb-4">
-                          <input type="" id="usuariopassword" class="form-control" placeholder="Escribe tu contraseña"/>
-                          <label class="form-label" for="usuariopassword" id="passwordlogin">Contraseña</label>
-                        </div>
-      
-                        <div class="text-center pt-1 mb-5 pb-1">
-                          <a class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" href="main.html">Ingresar</a>
-                          <a class="text-muted" href="#!">Olvidaste tu Contraseña?</a>
-                        </div>
-      
-                        <div class="d-flex pb-4">
-                          <p class="mb-0 me-2">No tienes una cuenta?</p>
-                          <a type="button" class="btn btn-outline-danger" href="registro.html">Crea una nueva</a>
-                        </div>
-      
-                      </form>    
+                    <div class="row">
+                      <div class="card-body p-md-5 mx-md-4">
+                        <div class="text-center">
+                          <img src="img/Alerta.jpg"
+                            style="width: 100px;" alt="logo">
+                          <h4 class="mt-1 mb-5 pb-1">MyAlert!</h4>
+                        </div>     
+                        <form>
+                          <p>Por favor ingresa a tu cuenta</p>
+        
+                          <div class="form-outline mb-4">
+                            <input type="" id="usuariologin" class="form-control"
+                              placeholder="Usuario" />
+                            <label class="form-label" for="usuariologin" id="login">Usuario</label>
+                          </div>
+        
+                          <div class="form-outline mb-4">
+                            <input type="" id="usuariopassword" class="form-control" placeholder="Escribe tu contraseña"/>
+                            <label class="form-label" for="usuariopassword" id="passwordlogin">Contraseña</label>
+                          </div>
+        
+                          <div class="text-center pt-1 mb-5 pb-1">
+                            <a class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" href="main.html">Ingresar</a>
+                            <a class="text-muted" href="#!">Olvidaste tu Contraseña?</a>
+                          </div>
+        
+                          <div class="d-flex justify-content-center pb-4">
+                            <p class="mb-0 me-2">No tienes una cuenta?</p>
+                            <a type="button" class="btn btn-outline-danger" href="registro.html">Crea una nueva</a>
+                          </div>
+        
+                        </form> 
+                        <hr margin="50px">
+                        <!-- Footer + boton Jquery -->
+                        <div class="row">
+                          <div class="text-center">
+                            <button class="btn btn-secondary gradient-custom-2" type="button" id="mostrartexto">
+                              Acerca de MyAlert!
+                            </button>
+                           </div>
+                        <div class="text-center pb-3">
+                        <p class="parrafo small mb-0" style="display: none" id="mostrar">Mantente alerta con MyAlert!, esta una comunidad que
+                          busca manterner alerta e informados
+                          a sus usuarios de eventos que afecten la seguridad en su zona, comparte lo que veas en tu ubicacion al instante!</p>
+                        </div>  
+                        <hr>
+                        <p class="text-center text-muted">© 2023 Andres, Inc</p>
+                        </div>   
+                      </div>
                     </div>
                   </div>
+
                   <!-- columna derecha -->
+
                   <div class="col-lg-6 d-flex align-items-center justify-content-center gradient-custom-2" id="columnaderecha">
-                    <div class="text-white px-3 py-4 p-md-5 mx-md-4" >
-                        <button type="button" class="btn btn-secondary gradient-custom-2" id="mostrartexto">
-                            Acerca de MyAlert!
-                        </button>
-                        <p class="parrafo small mb-0" style="display: none" id="mostrar">Mantente alerta con MyAlert!, esta una comunidad que busca manterner alerta e informados
-                            a sus usuarios de eventos que afecten la seguridad en su zona, comparte lo que veas en tu ubicacion al instante!</p>
-                        
-                    </div>
+
+                     <div class="text-white" >
+                        <img class="img-responsive img-rounded" src="img/mapaA1.gif" alt="" id="fotomapa"> 
+                     </div> 
+                       
                   </div>
                 </div>
               </div>
